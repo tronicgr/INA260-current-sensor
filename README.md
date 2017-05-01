@@ -1,7 +1,8 @@
 Thanos_INA260
 ===============
 
-INA260 Current Sensor
+INA260 Current Sensor library for Arduino
+
 <!-- START COMPATIBILITY TABLE -->
 
 ## Compatibility
