@@ -5,9 +5,7 @@
 	@license  BSD (see license.txt)
 	
 	Driver for the INA260 current sensor
-
 	This is a library for the INA260 
-	
 		
 	@section  HISTORY
 
@@ -81,8 +79,7 @@ void Thanos_INA260::wireReadRegister(uint8_t reg, uint16_t *value)
 /**************************************************************************/
 void Thanos_INA260::setConfigRegister(void)
 {
-  
-  
+  // Sets 4 samples average and sampling time for voltage and current to 8.244ms
     
   // Set Config register 
   uint16_t config = INA260_CONFIG_AVGRANGE_4 |
@@ -95,7 +92,7 @@ void Thanos_INA260::setConfigRegister(void)
 
 /**************************************************************************/
 /*! 
-    @brief  Instantiates a new INA219 class
+    @brief  Instantiates a new INA260 class
 */
 /**************************************************************************/
 Thanos_INA260::Thanos_INA260(uint8_t addr) {
@@ -153,7 +150,7 @@ int16_t Thanos_INA260::getCurrent_raw() {
  
 /**************************************************************************/
 /*! 
-    @brief  Gets the shunt voltage in mV (so +-327mV)
+    @brief  Gets the shunt voltage in mV
 */
 /**************************************************************************/
 float Thanos_INA260::getShuntVoltage_mV() {
@@ -174,8 +171,7 @@ float Thanos_INA260::getBusVoltage_V() {
 
 /**************************************************************************/
 /*! 
-    @brief  Gets the current value in mA, taking into account the
-            config settings and current LSB
+    @brief  Gets the current value in mA
 */
 /**************************************************************************/
 float Thanos_INA260::getCurrent_mA() {
