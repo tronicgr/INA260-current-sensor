@@ -15,12 +15,12 @@ INA260 Current Sensor library for Arduino
 
 MCU               | Tested Works | Doesn't Work | Not Tested  | Notes
 ----------------- | :----------: | :----------: | :---------: | -----
-Atmega328 @ 16MHz |      X       |             |            | 
-Atmega328 @ 12MHz |      X       |             |            | 
-Atmega32u4 @ 16MHz |      X       |             |            | 
-Atmega32u4 @ 8MHz |      X       |             |            | 
-ESP8266           |      X       |             |            | 
-Atmega2560 @ 16MHz |      X       |             |            | 
+Atmega328 @ 16MHz |              |             |     X      | 
+Atmega328 @ 12MHz |              |             |     X      | 
+Atmega32u4 @ 16MHz |              |             |     X      | 
+Atmega32u4 @ 8MHz |              |             |     X      | 
+ESP8266           |              |             |     X      | 
+Atmega2560 @ 16MHz |              |             |     X      | 
 ATSAM3X8E         |      X       |             |            | Use D20/D21.
 ATSAM21D          |      X       |             |            | 
 ATtiny85 @ 16MHz  |             |             |     X       | 
