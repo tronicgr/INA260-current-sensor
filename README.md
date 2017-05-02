@@ -3,6 +3,12 @@ Thanos_INA260
 
 INA260 Current Sensor library for Arduino
 
+
+ Some functions are missing, but it can measure the voltage and the current perfectly. 
+ I used the TI's evaluation board for testing: https://youtu.be/8NWVv__e6lM
+
+
+
 <!-- START COMPATIBILITY TABLE -->
 
 ## Compatibility
