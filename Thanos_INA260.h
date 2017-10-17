@@ -1,12 +1,10 @@
 /**************************************************************************/
 /*! 
-    @file     Thanos-INA260.h
-    @author   Thanos Kontogiannis (GA-ASI)
+    	@file     Thanos-INA260.h
+    	@author   Thanos Kontogiannis 
 	@license  BSD (see license.txt)
 		
-	
-
-    v1.0  - First release
+    	v1.0  - First release
 */
 /**************************************************************************/
 
