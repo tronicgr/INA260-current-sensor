@@ -18,9 +18,8 @@ void setup() {
 #ifndef ESP8266
     while (!SerialUSB);     // will pause Zero, Leonardo, etc until serial console opens
   #endif
-
+  
   SerialUSB.println("Scanning...");
-
   nDevices = 0;
   for (address = 1; address < 127; address++ )
   {
